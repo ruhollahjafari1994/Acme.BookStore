@@ -39,6 +39,7 @@ public class BookStoreTestBaseModule : AbpModule
 
     private static void SeedTestData(ApplicationInitializationContext context)
     {
+        
         AsyncHelper.RunSync(async () =>
         {
             using (var scope = context.ServiceProvider.CreateScope())
