@@ -12,6 +12,8 @@ namespace Acme.BookStore.Authors
         public BookStoreApplicationAutoMapperProfile()
         {
             CreateMap<Author, AuthorDto>();
+            CreateMap<AuthorDto, UpdateAuthorDto>();
+
         }
     }
 }
