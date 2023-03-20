@@ -1,7 +1,6 @@
-﻿using Acme.BookStore.Books;
-using AutoMapper;
+﻿using AutoMapper;
 
-namespace Acme.BookStore;
+namespace Acme.BookStore.Books;
 
 public class BookStoreApplicationAutoMapperProfile : Profile
 {
